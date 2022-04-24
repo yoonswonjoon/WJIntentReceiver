@@ -10,6 +10,8 @@ import androidx.compose.ui.Modifier
 import com.vlm.wjintentreceiver.ui.theme.WJIntentReceiverTheme
 
 class BActivity : ComponentActivity() {
+
+    //https://medium.com/androiddevelopers/all-about-pendingintents-748c8eb8619
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
